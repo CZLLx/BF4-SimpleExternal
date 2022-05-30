@@ -1,8 +1,11 @@
 # BF4-SimpleExternal
 
-My BF4 sinple External
+私が初めてコーディングしたBF4のチートを書き直しました。
 
-飽きたので作りました
+#### [ Feature ]
+* No Recoil, Spread (Customizable / カスタマイズ可能)
+* Unlock All (Attachment ONLY / アタッチメントのみ)
+* Damage Hack (TTKが異常な為安全ではない)
 
 # How to Use (使い方)
 
@@ -17,3 +20,14 @@ My BF4 sinple External
 ### 3. Run
   - Open Battlefield 4 and launch the application at some point
   - Battlefield 4を開きどこかのタイミングでアプリケーションを起動する
+
+# Caution (注意点)
+[English]
+* Use at your own risk.
+* Please provide minimum protection from PunkBuster.
+* Damage Hack has been tested online up to 2.
+
+[日本語]
+* 自己責任で使用してください。
+* PunkBusterからの保護は最低限行ってください。
+* ダメージハックは2までテスト済みです。
