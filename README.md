@@ -7,8 +7,6 @@
 * Unlock All (Attachment ONLY / アタッチメントのみ)
 * Damage Hack (TTKが異常な為安全ではない)
 
-* 簡単に機能を追加できます！
-
 # How to Use (使い方)
 
 ### 1. Open Project
