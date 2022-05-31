@@ -2,7 +2,7 @@
 
 私が初めてコーディングしたBF4のチートを書き直しました。
 
-#### [ Feature ]
+#### [ Feature / 機能 ]
 * No Recoil, Spread (Customizable / カスタマイズ可能)
 * Unlock All (Attachment ONLY / アタッチメントのみ)
 * Damage Hack (TTKが異常な為安全ではない)
