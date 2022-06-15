@@ -11,7 +11,6 @@ class Menu
 {
 public:
 	DWORD CreateAppWindow();
-	void LoadStyle();
 	void MainMenu();
 
 	void Start();
