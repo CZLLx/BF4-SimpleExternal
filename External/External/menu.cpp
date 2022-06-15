@@ -1,4 +1,4 @@
-﻿#include "menu.h"
+#include "menu.h"
 #include "bf4.h"
 
 extern bool Active;
@@ -227,59 +227,4 @@ void Menu::Start()
 void Menu::End()
 {
     Active = false;
-}
-
-void Menu::LoadStyle()
-{
-    ImGuiStyle& style = ImGui::GetStyle();
-    style.WindowPadding = ImVec2(8.00f, 8.00f);
-    style.FramePadding = ImVec2(4.00f, 4.00f);
-    style.CellPadding = ImVec2(4.00f, 2.00f);
-    style.ItemSpacing = ImVec2(8.00f, 4.00f);
-    style.ItemInnerSpacing = ImVec2(4.00f, 4.00f);
-    style.TouchExtraPadding = ImVec2(0.00f, 0.00f);
-    style.IndentSpacing = 21.00f;
-    style.ScrollbarSize = 14.00f;
-    style.GrabMinSize = 10.00f;
-
-    // Boeder
-    style.WindowBorderSize = 0.00f;
-    style.ChildBorderSize = 1.00f;
-    style.PopupBorderSize = 1.00f;
-    style.FrameBorderSize = 0.00f;
-    style.TabBorderSize = 0.00f;
-
-    // Rounding
-    style.WindowRounding = 10.00f;
-    style.ChildRounding = 12.00f;
-    style.FrameRounding = 2.00f;
-    style.PopupRounding = 0.00f;
-    style.ScrollbarRounding = 9.00f;
-    style.GrabRounding = 1.00f;
-    style.LogSliderDeadzone = 4.00f;
-    style.TabRounding = 4.00f;
-    style.WindowTitleAlign = ImVec2(0.50f, 0.50f);
-
-    auto* colors = ImGui::GetStyle().Colors;
-    colors[ImGuiCol_WindowBg] = ImVec4(0.08f, 0.08f, 0.08f, 1.00f);
-    colors[ImGuiCol_FrameBg] = ImVec4(1.00f, 0.94f, 0.96f, 0.06f);
-    colors[ImGuiCol_FrameBgHovered] = ImVec4(1.00f, 1.00f, 1.00f, 0.15f);
-    colors[ImGuiCol_FrameBgActive] = ImVec4(1.00f, 1.00f, 1.00f, 0.25f);
-    colors[ImGuiCol_TitleBg] = ImVec4(0.08f, 0.08f, 0.08f, 1.00f);
-    colors[ImGuiCol_TitleBgActive] = ImVec4(0.08f, 0.08f, 0.08f, 1.00f);
-    colors[ImGuiCol_TitleBgCollapsed] = ImVec4(0.00f, 0.00f, 0.00f, 0.51f);
-    colors[ImGuiCol_CheckMark] = ImVec4(0.94f, 0.19f, 0.54f, 1.00f);
-    colors[ImGuiCol_SliderGrab] = ImVec4(0.94f, 0.19f, 0.54f, 1.00f);
-    colors[ImGuiCol_SliderGrabActive] = ImVec4(0.94f, 0.19f, 0.54f, 1.00f);
-    colors[ImGuiCol_Button] = ImVec4(0.94f, 0.19f, 0.54f, 1.00f);
-    colors[ImGuiCol_ButtonHovered] = ImVec4(1.00f, 0.00f, 0.33f, 1.00f);
-    colors[ImGuiCol_ButtonActive] = ImVec4(1.00f, 0.00f, 0.20f, 1.00f);
-    colors[ImGuiCol_Header] = ImVec4(1.00f, 0.50f, 0.00f, 1.00f);
-    colors[ImGuiCol_HeaderHovered] = ImVec4(1.00f, 0.10f, 0.00f, 1.00f);
-    colors[ImGuiCol_HeaderActive] = ImVec4(1.00f, 0.50f, 0.00f, 1.00f);
-
-    // Separator
-    //colors[ImGuiCol_Separator] = ImVec4(1.00f, 0.96f, 0.85f, 0.97f);
-    //colors[ImGuiCol_SeparatorHovered] = ImVec4(0.10f, 0.40f, 0.75f, 0.78f);
-    //colors[ImGuiCol_SeparatorActive] = ImVec4(0.10f, 0.40f, 0.75f, 1.00f);
 }
