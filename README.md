@@ -1,6 +1,6 @@
 # BF4-SimpleExternal
 
-私が初めてコーディングしたBF4のチートを書き直しました。
+私が初めてコーディングしたBF4のチートを少し書き直しました。
 
 #### [ Feature / 機能 ]
 * No Recoil, Spread (Customizable / カスタマイズ可能)
