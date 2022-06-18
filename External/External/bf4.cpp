@@ -86,6 +86,8 @@ void BF::DamageHack()
 			return;
 		ReadProcessMemory(pHandle, (void*)(WeaponD + 0x128), &WeaponD, sizeof(DWORD_PTR), NULL);
 		ReadProcessMemory(pHandle, (void*)(WeaponD + 0x10), &WeaponD, sizeof(DWORD_PTR), NULL);
+		// BulletPerShell の値をいじっているので一発当たりのショットガンの弾も減ります。
+		// ショットガンはここの値が19程度です。
 		WriteProcessMemory(pHandle, (void*)(WeaponD + 0xD8), &BulletPerShot, sizeof(int), NULL);
 	}
 }
