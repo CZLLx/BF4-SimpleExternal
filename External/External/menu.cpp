@@ -89,8 +89,6 @@ DWORD Menu::CreateAppWindow()
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;
     io.IniFilename = NULL;
 
-    LoadStyle();
-
     ImGui_ImplWin32_Init(hwnd);
     ImGui_ImplDX9_Init(g_pd3dDevice);
 
